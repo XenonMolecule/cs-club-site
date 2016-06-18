@@ -43,9 +43,32 @@ body{
 .navbar-header a{
     color:#FFF !important;
     font-size:25px;
-    margin-left:-1% !important;
+    margin-left:-1% !important; 
 }
 
 .roundeder{
     border-radius:10px 10px;
+}
+
+.backgroundImg{
+    width:100%;
+    height:94.3vh;   /*PART OF BACKGROUND IMAGE SIZE*/
+}
+
+.backImgJumbo{
+    height:94.3vh;   /*PART OF BACKGROUND IMAGE SIZE*/
+    padding:0px 0px 0px 0px;
+    margin-top:-20px;
+}
+
+.cover{
+    width:100%;
+    height:94.3vh;   /*PART OF BACKGROUND IMAGE SIZE*/
+    position:absolute;
+    background-color: #000;
+    background-color: rgba(29, 31, 33,0.8)
+}
+
+html{
+    height:100vh;
 }

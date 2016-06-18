@@ -1,3 +1,5 @@
 {
-    "test":["function hi(){","/>/console.log(''hi'');","}"]
+    "test":{
+        
+    }
 }
