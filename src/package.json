@@ -1,0 +1,32 @@
+{
+  "name": "cs-club-site",
+  "version": "1.0.0",
+  "description": "A website I am working on for fun to maybe use to teach cs club members coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XenonMolecule/cs-club-site.git"
+  },
+  "keywords": [
+    "website",
+    "cs-club",
+    "teaching",
+    "education"
+  ],
+  "author": "XenonMolecule",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XenonMolecule/cs-club-site/issues"
+  },
+  "homepage": "https://github.com/XenonMolecule/cs-club-site#readme",
+  "dependencies": {
+    "ace-builds": "^1.2.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3"
+  }
+}
