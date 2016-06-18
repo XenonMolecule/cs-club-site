@@ -1,0 +1,45 @@
+extends ./layout.pug
+
+block content
+    style.
+        #editor {
+            width:100vw;
+            height:70vh;
+        }
+        .belowEditor {
+            margin-top:71vh;
+            text-align:center;
+            color: #EBEBEB;
+            font-family:Oswald;
+        }
+        .halfSize {
+            width:50%;
+        }
+        .center{
+            text-align:center;
+            margin: 0 auto;
+        }
+        .textLeft{
+            text-align:left !important;
+        }
+    pre(id="editor")
+    .belowEditor
+        form
+        .form-group
+            label(for="language") Language
+            select.form-control.halfSize.center(id="language")
+                option javascript
+                option coffee
+                option css
+                option folding
+                option html
+                option json
+                option lua
+                option php
+                option xml
+                option xquery
+        .form-group
+            label(for="snipName") Name
+            input.form-control.halfSize.center.textLeft(id="snipName",type="text")
+        .form-group
+            button.btn.btn-success.btn-md(id="submitSnippit") Submit

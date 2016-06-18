@@ -3,10 +3,15 @@ html(lang="en")
     include ./partials/_header.pug
     
     body
+        include ./nav.pug
         block content
         script(src="/ace/src-noconflict/ace.js" type="text/javascript" charset="utf-8")
         script(src="https://code.jquery.com/jquery-2.2.3.min.js",integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=", crossorigin="anonymous")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.2.0/socket.io.min.js")
+        script(type='text/javascript').
+            var socket = io();
         // Latest compiled and minified JavaScript for bootstrap
         script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+        script(src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js")
         script(src="/static/javascript/styleCode.js")
         script(src="/static/javascript/app.js")

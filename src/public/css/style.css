@@ -4,4 +4,48 @@
     right: 0;
     bottom: 0;
     left: 0;
+    width:50vw;
+    border-color:#25282C;
+    border-width:2px;
+}
+
+body{
+    background-color: #1D1F21;
+}
+
+.rounded{
+    border-radius:5px 5px;
+}
+
+@media(min-width:1150px){
+    .inner-nav-content{
+        width:50%;
+    }
+}
+
+@media(max-width:1149px){
+    .inner-nav-content{
+        width:100%;
+    }
+}
+
+.center{
+    margin:0 auto;
+    text-align: center;
+}
+
+.navbar-brand{
+    background-color: #8A181A !important;
+    font-family: Oswald;
+    text-align: center;
+}
+
+.navbar-header a{
+    color:#FFF !important;
+    font-size:25px;
+    margin-left:-1% !important;
+}
+
+.roundeder{
+    border-radius:10px 10px;
 }

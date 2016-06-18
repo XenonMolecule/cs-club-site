@@ -18,3 +18,13 @@ $.getJSON("/static/data/snippits.json",function(res){
         $(this).html(formattedHTML);
     });
 });
+
+//FOR SNIPPIT CREATOR ENABLE LANGUAGE CHANGER
+$("#language").on("change",function(){
+    editor.session.setMode("ace/mode/"+$(this).val());
+});
+
+//SEND SNIPPIT CODE TO JSON FILE
+$("#submitSnippit").on("click",function(){
+    editor.session.getValue();
+})

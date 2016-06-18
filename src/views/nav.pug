@@ -1,0 +1,38 @@
+nav.navbar.navbar-static-top.navigation.navbar-inverse
+    .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .inner-nav-content.center
+            .navbar-header
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand.center.roundeder(href='/home') CHE
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right
+              ul.nav.navbar-nav
+                li
+                    a(href='#') Lessons
+                li
+                    a(href='#') Lesson Creator
+                li
+                    a(href="#") Leader Board
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                    | Account
+                    span.caret
+                  ul.dropdown-menu
+                    li
+                      a(href='#', hidden, style="display:none") Your Profile
+                    li
+                      a(href='#', hidden, style="display:none") Your Badges
+                    li
+                      a(href='#', hidden, style="display:none") Your Lessons
+                    li.divider(role='separator', hidden, style="display:none")
+                    li
+                      a(href='#') Log in
+                    li
+                      a(href='#', hidden, style="display:none") Sign out
+
+            
